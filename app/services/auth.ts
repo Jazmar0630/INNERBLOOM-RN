@@ -3,7 +3,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfi
 import { doc, setDoc, serverTimestamp } from 'firebase/firestore';
 
 const defaultActiveDays = () => ({
-  mon: false, tue: false, wed: false, thu: false,
+  mon: true, tue: false, wed: false, thu: false,
   fri: false, sat: false, sun: false,
 });
 
